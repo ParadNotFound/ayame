@@ -1,9 +1,9 @@
 let handler = async m => m.reply(`
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┇       *「 DONASI 」*
+┇       *「 DONASI💰 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┃ ❖    GAUSAH DONASI
-┃ ❖   [Kosong]
+┃ ❖    XL=0877-1143-7007
+┃ ❖   TRI=0895-7042-17116
 ┃ 
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trim()) // Tambah sendiri kalo mau
