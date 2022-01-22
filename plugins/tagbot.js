@@ -3,11 +3,11 @@ if (!isOwner) throw false
 let name = conn.getName(m.sender)
 let me = conn.user.name
 let teks = `
-${pickRandom([` _Saya disini Master_`, ` _Ayamee hadir_`, ` _Apakah Master mencari saya??_`, ` _Yapp Master_`, `*_百鬼あやめ_*\n\nAda hanya untuk melayani Master  U n x`])}
+${pickRandom([` _Saya disini Bos_`, ` _Hadir bos_`, ` _Apakah Bos mencari saya??_`, ` _Yapp Bos`])}
 `.trim()
-conn.fakeReply(m.chat, teks, '0@s.whatsapp.net', `${me}  Love  U n x`, 'status@broadcast')
+conn.fakeReply(m.chat, teks, '0@s.whatsapp.net', `${me}  Love  B o s s`, 'status@broadcast')
 }
-handler.customPrefix = /6289524339740|ayame/
+handler.customPrefix = /6287711437007/
 handler.command = new RegExp
 
 module.exports = handler
