@@ -37,7 +37,11 @@ handler.before = function (m) {
                                                                                                                                     : ((user.level >= 94) && (user.level <= 97)) ? 'Mythic III'
                                                                                                                                         : ((user.level >= 97) && (user.level <= 100)) ? 'Mythic II'
                                                                                                                                             : ((user.level >= 100) && (user.level <= 103)) ? 'Mythic I'
-                                                                                                                                                : 'Mythical Glory'
+                                                                                                                                                : ((user.level >= 103) && (user.level <= 4000)) ? 'Raja 1'
+                                                                                                                                                    : ((user.level >= 4000) && (user.level <= 6000)) ? 'Hyper V'
+                                                                                                                                                        : ((user.level >= 6000) && (user.level <= 8000)) ? 'Hyper IV'
+                                                                                                                                                            : ((user.level >= 8000) && (user.level <= 10000)) ? 'DEWA'
+                                                                                                                                                                : 'GOD OF WAR'
     user.role = role
     return true
 }
