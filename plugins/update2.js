@@ -4,7 +4,7 @@ const { promisify } = require('util')
 const { join } = require('path')
 
 let confirmation = {}
-let repository = 'unx21/ayame'
+let repository = 'ParadNotFound'
 let branch = 'zx'
 
 async function handler(m, { text }) {
